@@ -8,4 +8,8 @@ class Cult
         @founding_year = founding_year
         @slogan = slogan
     end
+
+    def recruit_follower
+        
+    end
 end

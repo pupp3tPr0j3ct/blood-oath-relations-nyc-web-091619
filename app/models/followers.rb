@@ -1,8 +1,17 @@
 class Followers
 
-    attr_reader :name
+    attr_accessor :name
 
-    def initialize(name)
+    @@all = []
+
+    def initialize(name, age)
         @name = name
+        @age = age
+        @@all << self
     end
+
+    def self.all
+        @@all
+    end
+
 end
