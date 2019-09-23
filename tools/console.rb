@@ -15,14 +15,18 @@ cult_two = Cult.new("Monkey Coders", "Bronx", 1993, "No banana for you")
 cult_three = Cult.new("Catchy Name", "Queens", 1990, "A slogan")
 
 #Followers Template
-## name = Followers.new(name)
+## name = Followers.new(name, age, life_motto)
 
-follower_one = Followers.new("John")
-follower_two = Followers.new("Winston")
-follower_three = Followers.new("Perkins")
+follower_one = Followers.new("John", 46, "Commitment")
+follower_two = Followers.new("Winston", 69, "Focus")
+follower_three = Followers.new("Perkins", 31, "Will")
 
+#BloodOath Template
+## oath = BloodOath.new(oath)
 
-
+oath_one = BloodOath.new("Ouch that hurt")
+oath_two = BloodOath.new("My Blood is blue")
+oath_three = BloodOath.new("Monkey noises")
 
 
 binding.pry
