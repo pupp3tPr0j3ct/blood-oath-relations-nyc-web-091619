@@ -1,19 +1,19 @@
-class Allergy
+# class Allergy
 
-    attr_reader :user, :ingredient
+#     attr_reader :user, :ingredient
 
-    @@all = []
+#     @@all = []
 
-    def initialize(user, ingredient)
-        @user = user
-        @ingredient = ingredient
-        @@all << self
-    end
+#     def initialize(user, ingredient)
+#         @user = user
+#         @ingredient = ingredient
+#         @@all << self
+#     end
 
-    def self.all
-        #Allergy.all should return all of the Allergy instances
-        @@all
-    end
+#     def self.all
+#         #Allergy.all should return all of the Allergy instances
+#         @@all
+#     end
     
 
-end
+# end
