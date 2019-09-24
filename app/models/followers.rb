@@ -16,7 +16,7 @@ class Followers
     end
 
     def self.join_cult(name)
-
+        
     end
 
     def self.of_a_certain_age(age)
@@ -25,6 +25,12 @@ class Followers
             # Followers.all.find do ||
             #     Followers.all[].age == age
             # end
+        end
+    end
+
+    def self.cults(name)
+        Followers.all.select do |cult|
+            cult.name = cult
         end
     end
 
