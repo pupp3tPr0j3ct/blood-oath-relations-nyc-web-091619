@@ -1,15 +1,21 @@
 class BloodOath
 
-    attr_reader :oath
+    attr_reader :follower, :cult, :initiation_date
 
     @@all = []
 
-    def initialize(oath)
-        @oath = oath
+    def initialize(follower, cult, initiation_date)
+        @follower = follower
+        @cult = cult
+        @initiation_date = initiation_date
         @@all << self
     end
 
     def self.all
         @@all
+    end
+
+    def initiation_date
+
     end
 end

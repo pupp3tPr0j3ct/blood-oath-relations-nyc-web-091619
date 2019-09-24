@@ -22,11 +22,11 @@ follower_two = Followers.new("Winston", 69, "Focus")
 follower_three = Followers.new("Perkins", 31, "Will")
 
 #BloodOath Template
-## oath = BloodOath.new(oath)
+## oath = BloodOath.new(date)
 
-oath_one = BloodOath.new("Ouch that hurt")
-oath_two = BloodOath.new("My Blood is blue")
-oath_three = BloodOath.new("Monkey noises")
+oath_one = BloodOath.new()
+oath_two = BloodOath.new()
+oath_three = BloodOath.new()
 
 
 binding.pry
