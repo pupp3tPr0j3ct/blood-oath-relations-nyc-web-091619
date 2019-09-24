@@ -16,9 +16,11 @@ class Cult
         @@all
     end
 
-    def self.founding_year
-        Cult.all.find do |year|
-            year
+    def self.founding_year(year)
+        Cult.all.select do |cult|
+            cult.founding_year == year
         end
     end
+
+    
 end
