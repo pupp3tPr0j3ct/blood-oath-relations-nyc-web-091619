@@ -91,7 +91,7 @@ Questions you should ask yourself:
 
 **`BloodOath`**
 
-* `BloodOath#initiation_date` DONE
+* `BloodOath#initiation_date`
   * returns a `String` that is the initiation date of this blood oath in the format _YYYY-MM-DD_.
 * `BloodOath.all` DONE
   * returns an `Array` of all the blood oaths
