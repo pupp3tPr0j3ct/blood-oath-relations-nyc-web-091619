@@ -51,34 +51,34 @@ Questions you should ask yourself:
 
 **`Cult`**
 
-* `Cult#name`
+* `Cult#name` DONE
   * returns a `String` that is the cult's name
-* `Cult#location`
+* `Cult#location` DONE
   * returns a `String` that is the city where the cult is located
 * `Cult#founding_year` DONE
   * returns a `Fixnum` that is the year the cult was founded
-* `Cult#slogan`
+* `Cult#slogan` DONE
   * returns a `String` that is this cult's slogan
 * `Cult#recruit_follower`
   * takes in an argument of a `Follower` instance and adds them to this cult's list of followers
 * `Cult#cult_population`
   * returns a `Fixnum` that is the number of followers in this cult
-* `Cult.all`
+* `Cult.all` DONE
   * returns an `Array` of all the cults
-* `Cult.find_by_name`
+* `Cult.find_by_name` DONE
   * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument
 * `Cult.find_by_location`
   * takes a `String` argument that is a location and returns an `Array` of cults that are in that location
-* `Cult.find_by_founding_year`
+* `Cult.find_by_founding_year` DONE
   * takes a `Fixnum` argument that is a year and returns all of the cults founded in that year
 
 **`Follower`**
 
 * `Follower#name` DONE
   * returns a `String` that is the follower's name
-* `Follower#age`
+* `Follower#age` DONE
   * returns a `Fixnum` that is the age of the follower
-* `Follower#life_motto`
+* `Follower#life_motto` DONE
   * returns a `String` that is the follower's life motto
 * `Follower#cults`
   * returns an `Array` of this follower's cults

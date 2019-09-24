@@ -22,5 +22,13 @@ class Cult
         end
     end
 
-    
+    def self.find_cult(name)
+        Cult.all.select do |cult|
+            cult.name == name
+        end
+    end
+
+    def recruit_follower(follower)
+        follower = Cult.new
+    end
 end
