@@ -67,7 +67,7 @@ Questions you should ask yourself:
   * returns an `Array` of all the cults
 * `Cult.find_by_name` DONE
   * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument
-* `Cult.find_by_location`
+* `Cult.find_by_location` DONE
   * takes a `String` argument that is a location and returns an `Array` of cults that are in that location
 * `Cult.find_by_founding_year` DONE
   * takes a `Fixnum` argument that is a year and returns all of the cults founded in that year

@@ -1,6 +1,6 @@
 class BloodOath
 
-    attr_reader :follower, :cult, :initiation_date
+    attr_accessor :follower, :cult, :initiation_date
 
     @@all = []
 
@@ -18,4 +18,4 @@ class BloodOath
     def initiation_date
 
     end
-end
+end # End of Class

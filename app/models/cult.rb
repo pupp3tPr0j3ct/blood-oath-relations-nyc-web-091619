@@ -22,7 +22,7 @@ class Cult
         end
     end
 
-    def self.find_cult(name)
+    def self.find_cult(name) # find_by_name
         Cult.all.select do |cult|
             cult.name == name
         end
@@ -31,4 +31,10 @@ class Cult
     def recruit_follower(follower)
         follower = Cult.new
     end
-end
+
+    def self.find_by_location(location)
+        Cult.all.select do |cult|
+            cult.location == location
+        end
+    end
+end # End of Class
