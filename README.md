@@ -74,7 +74,7 @@ Questions you should ask yourself:
 
 **`Follower`**
 
-* `Follower#name`
+* `Follower#name` DONE
   * returns a `String` that is the follower's name
 * `Follower#age`
   * returns a `Fixnum` that is the age of the follower
@@ -84,16 +84,16 @@ Questions you should ask yourself:
   * returns an `Array` of this follower's cults
 * `Follower#join_cult`
   * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers
-* `Follower.all`
+* `Follower.all` DONE
   * returns an `Array` of all the followers
 * `Follower.of_a_certain_age`
   * takes a `Fixnum` argument that is an age and returns an `Array` of followers who are the given age or older
 
 **`BloodOath`**
 
-* `BloodOath#initiation_date`
+* `BloodOath#initiation_date` DONE
   * returns a `String` that is the initiation date of this blood oath in the format _YYYY-MM-DD_.
-* `BloodOath.all`
+* `BloodOath.all` DONE
   * returns an `Array` of all the blood oaths
 
 ---

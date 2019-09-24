@@ -2,14 +2,23 @@ class Cult
 
     attr_accessor :name, :location, :founding_year, :slogan
 
+    @@all = []
+
     def initialize(name, location, founding_year, slogan)
         @name = name
         @location = location
         @founding_year = founding_year
         @slogan = slogan
+        @@all << self
     end
 
-    def recruit_follower
-        
+    def self.all
+        @@all
+    end
+
+    def self.founding_year
+        Cult.all.find do |year|
+            year
+        end
     end
 end

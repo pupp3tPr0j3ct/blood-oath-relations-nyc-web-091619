@@ -12,7 +12,7 @@ end
 
 cult_one = Cult.new("One liners", "Brooklyn", 1990, "All in one")
 cult_two = Cult.new("Monkey Coders", "Bronx", 1993, "No banana for you")
-cult_three = Cult.new("Catchy Name", "Queens", 1990, "A slogan")
+cult_three = Cult.new("Catchy Name", "Queens", 1991, "A slogan")
 
 #Followers Template
 ## name = Followers.new(name, age, life_motto)
